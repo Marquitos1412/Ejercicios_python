@@ -1,3 +1,4 @@
+#Crea una matriz pidiendo valores al usuario
 def pedir_matriz():
     matriz = []
 
@@ -44,10 +45,8 @@ def imprimir_matriz(matriz):
         cadena_matriz = "|"
         
         for valor in fila:
-            cadena_matriz += f"{valor}"
+            cadena_matriz += f"{valor} "
 
         cadena_matriz += "|"
         
         print(cadena_matriz)
-
-imprimir_matriz(pedir_matriz())
